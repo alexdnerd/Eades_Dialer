@@ -8,5 +8,9 @@ namespace Eades_Dialer
 {
     class HomePhone : Phone
     {
+        public HomePhone(string NewCompany, string NewNumber, int cellDetermine) : base(NewCompany, NewNumber, cellDetermine)
+        {
+
+        }
     }
 }

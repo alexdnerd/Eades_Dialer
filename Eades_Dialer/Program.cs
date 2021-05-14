@@ -10,6 +10,9 @@ namespace Eades_Dialer
         static void Main(string[] args)
         {
             Console.WriteLine("dialing");
+
+            CellPhone p1 = new CellPhone("CompuTest", "(303) 985 - 5060", 1);
+            Console.WriteLine(p1.Company + " is being dialed using "+ p1.Number+"..." );
         }
     }
 }
